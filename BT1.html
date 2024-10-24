@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BT2</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .container1 {
+        background: rgb(116, 219, 120);
+        padding: 10px;
+      }
+      .tieude1 {
+        margin: 5px 0;
+        color: white;
+      }
+      .tieude2 {
+        margin: 5px 0;
+        color: white;
+      }
+      .container2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+      }
+      img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+      }
+
+      @media screen and (max-width: 739px) {
+        .container2 {
+          grid-template-columns: 1fr;
+        }
+
+        .tieude1 {
+          font-size: 1.5rem;
+        }
+
+        .tieude2 {
+          font-size: 1rem;
+        }
+
+        .item p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <h1 class="tieude1">VTC Academy Fashion Week</h1>
+        <p class="tieude2">Resize this responsive page!</p>
+      </div>
+      <div class="container2">
+        <div class="item">
+          <h2>LonDon</h2>
+          <p>London is the capital of England.</p>
+          <p>
+            It is the most populous city in the United Kingdom, with a
+            metropolitan area of over 13 million inhabitants.
+          </p>
+          <img
+            src="https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg"
+            alt="London"
+          />
+        </div>
+        <div class="item">
+          <h2>Paris</h2>
+          <p>Paris is the capital of France.</p>
+          <p>
+            The Paris area is one of the largest population centers in Europe,
+            with more than 12 million inhabitants.
+          </p>
+          <img
+            src="https://i0.wp.com/thattravelista.com/wp-content/uploads/2020/08/France-Paris-12.jpg?fit=1100%2C825&ssl=1"
+            alt="Paris"
+          />
+        </div>
+        <div class="item">
+          <h2>Tokyo</h2>
+          <p>Tokyo is the capital of Japan.</p>
+          <p>
+            It is the center of the Greater Tokyo Area, and the most populous
+            metropolitan area in the world.
+          </p>
+          <img
+            src="https://media.istockphoto.com/id/1131743616/photo/aerial-view-of-tokyo-cityscape-with-fuji-mountain-in-japan.jpg?s=612x612&w=0&k=20&c=0QcSwnyzP__YpBewnQ6_-OZkn0XDtq-mXyvLSSakjZE="
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
